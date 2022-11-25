@@ -1,0 +1,74 @@
+baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: charlola.mode
+paginate: 5
+theme: charlolamode
+
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Contact
+                  url: contact/
+                  weight: 30
+                - name: Articles
+                  url: articles/
+                  weight: 20
+                # - name: Categories
+                #   url: categories/
+                #   weight: 10
+
+
+params:
+    author: Author's Name
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        enabled: true
+        title: charlola's template
+        imageUrl: "/images/profile.png"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Don't click me
+              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: buymeacoffee
+          url: "https://ko-fi.com/heycharlola"
+        - name: github
+          url: "https://github.com/charlola"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/charlotte-vaessen/"
+
+
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
