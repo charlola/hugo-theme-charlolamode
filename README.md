@@ -5,10 +5,9 @@ It's quick and easy to use with the most minimal and basic functions.
 
 1. Install [Hugo](https://gohugo.io/installation/)
 2. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-3. Open your favorite Editor like [Visual Studio Code](https://code.visualstudio.com/download)
 
 
-**In Visual Studio Code, open your terminal**
+**Open your terminal or command line**
 
 1. Create a new folder 'my-personal-blog'
 
@@ -16,24 +15,31 @@ It's quick and easy to use with the most minimal and basic functions.
 mkdir 'my-personal-blog'
 ```
 
-2. Initialize an empty Git repository in the current directory
+2. Go into this folder 
+```console
+cd 'my-personal-blog'
+```
+
+3. Initialize an empty Git repository in the current directory
 ```console
 git init
 ```
 
-2. Clone this repository into your folder
+4. Clone this repository into your folder
 ```console
 git clone 'https://github.com/charlola/blog-template.git'
 ```
 
-4. Start Hugo's development server to view the site locally.
+5. Start Hugo's development server to view the site locally.
 ```console
 hugo server
 ```
 
 
-## Features
 
+## Open Visual Studio Code to edit your Blog
+
+3. Open your favorite Editor like [Visual Studio Code](https://code.visualstudio.com/download)
 ### Basic Configuration
 
 The config.yml is your best friend. You can modify and add information, such as ...
@@ -41,6 +47,8 @@ The config.yml is your best friend. You can modify and add information, such as 
 - Your Name
 - Social Icons
 - Buttons
+
+{{< figure src="static/images/example.png" title="" >}}
 
 ### Change Profilpic
 
@@ -62,3 +70,9 @@ If you like to push new content, create a new Markdown file. Find an example in 
 ## Thank you!
 
 I'd love to get feedback. Send a message via LinkedIn. Feel free to support this page with a [coffee donation](https://ko-fi.com/heycharlola) :)
+
+
+
+## Online Website
+
+To push your website online, use Azure Static Web or Netflify. I used Azure Static Web.
