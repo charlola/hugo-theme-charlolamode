@@ -1,6 +1,8 @@
 This is a blog tempalte based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper)
 It's quick and easy to use with the most minimal and basic functions.
 
+![ProfilePic](static/images/example_2.png)
+
 ## Quick Start
 
 1. Install [Hugo](https://gohugo.io/installation/)
