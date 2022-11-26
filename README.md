@@ -1,6 +1,6 @@
-### charlolamode
+### charlola.mode
 
-This is a blog tempalte based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper). It's quick and easy to use with the most minimal and basic functions.
+This is a theme template for websites based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper). It's quick and easy to use with minimal design and the most basic functions.
 
 Check out my website to see a similar example: www.heycharlola.com
 
@@ -33,7 +33,7 @@ git init
 
 4. Clone this repository into your folder
 ```console
-git clone 'https://github.com/charlola/blog-template.git'
+git clone 'https://github.com/charlola/hugo-theme-charlolamode.git'
 ```
 
 5. Start Hugo's development server to view the site locally.
@@ -56,25 +56,25 @@ The config.yml is your best friend. You can modify and add information, such as 
 
 ![ProfilePic](static/images/example.png)
 
-You can add easily social icons like LinkedIn, Twitter, Youtube, Instagram, ... just add them in the config.yml. Examples are already added.
+You can easily add social icons like LinkedIn, Twitter, Youtube, Instagram, ... just have a look in the config.yml. Examples are already added.
 
 
-### Change Profilpic
+### Change Profile Image
 
-To add your profilpic, replace ***profil.png*** in the folder ***static/images***. Make sure you take an image with a happy face :)
+To add your profile pic, replace ***profil.png*** in the folder ***static/images***. Make sure you take an image with a happy face :)
 
 ### Add tabs
 
 In the config.yml you can add new tabs next to 'Articles' and 'Contact'. Uncomment 'Category' to check it out.
 
 ***Note***
-If you add a new tab, you have to do the following:
-1. Add new folder in 'content' with the ***same name*** as the new tab.
+If you add a new tab in the config.yml, you have to do the following:
+1. Add new folder in the directory 'content' with the ***same name*** as the new tab.
 2. Copy ***_index.md*** from articles into new folder.
 
 ### Add new content
 
-If you like to push new content, create a new Markdown file. Find an example in ***content/articles/article.md***.
+If you like to push new content, create a new Markdown file in the new folder. Find an example in ***content/articles/article.md***.
 
 ## Thank you!
 
