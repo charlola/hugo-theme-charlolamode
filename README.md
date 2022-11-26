@@ -1,5 +1,4 @@
-This is a blog template based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper).
-Check out my website www.heycharlola.com to get an idea. 
+This is a blog tempalte based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper)
 It's quick and easy to use with the most minimal and basic functions.
 
 ![ProfilePic](static/images/screenshot.png)
@@ -53,6 +52,8 @@ The config.yml is your best friend. You can modify and add information, such as 
 
 ![ProfilePic](static/images/example.png)
 
+You can add easily social icons like LinkedIn, Twitter, Youtube, Instagram, ... just add them in the config.yml. Examples are already added.
+
 
 ### Change Profilpic
 
@@ -60,7 +61,7 @@ To add your profilpic, replace ***profil.png*** in the folder ***static/images**
 
 ### Add tabs
 
-In the config.yml you can add new tabs next to 'Articles' and 'Contact. Uncomment 'Category' to check it out.
+In the config.yml you can add new tabs next to 'Articles' and 'Contact'. Uncomment 'Category' to check it out.
 
 ***Note***
 If you add a new tab, you have to do the following:
@@ -69,7 +70,7 @@ If you add a new tab, you have to do the following:
 
 ### Add new content
 
-If you like to push new content, create a new Markdown file. Find an example in ***content/articles/article.md.
+If you like to push new content, create a new Markdown file. Find an example in ***content/articles/article.md***.
 
 ## Thank you!
 
