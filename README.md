@@ -1,4 +1,5 @@
-This is a blog template based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper)
+This is a blog template based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper).
+Check out my website www.heycharlola.com to get an idea. 
 It's quick and easy to use with the most minimal and basic functions.
 
 ![ProfilePic](static/images/example_2.png)
