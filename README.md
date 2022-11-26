@@ -41,6 +41,8 @@ git clone 'https://github.com/charlola/hugo-theme-charlolamode.git'
 hugo server
 ```
 
+Once the local server starts, you can see your site. If your webbrowser does not automatically pop up, open your browser and enter http://localhost:1313. Now you can start to modify this page in the directory. If you save new changes, this site will automatically refresh and render the modification.
+
 
 
 ## Open Visual Studio Code to edit your Blog
