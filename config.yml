@@ -4,21 +4,21 @@ paginate: 5
 theme: charlolamode
 
 
-languages:
-    en:
-        languageName: "English"
-        weight: 1
-        menu:
-            main:
-                - name: Contact
-                  url: contact/
-                  weight: 30
-                - name: Articles
-                  url: articles/
-                  weight: 20
-                # - name: Categories
-                #   url: categories/
-                #   weight: 10
+
+menu:
+    main:
+        - name: Contact
+          url: contact/
+          weight: 30
+        - name: Articles
+          url: articles/
+          weight: 20
+        # - name: Categories
+        #   url: categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: mewtab/
+        #   weight: defines order of tabs
 
 
 params:
@@ -36,7 +36,7 @@ params:
 
     profileMode:
         enabled: true
-        title: charlola's template
+        title: Joe Doe
         imageUrl: "/images/profile.png"
         imageTitle: my image
         # imageWidth: 120
@@ -53,15 +53,25 @@ params:
         - name: github
           url: "https://github.com/charlola"
         - name: linkedin
-          url: "https://www.linkedin.com/in/charlotte-vaessen/"
+          url: "https://www.linkedin.com/in/heycharlola/"
+
+      # add more social icons. find more in svg.html file
+      # - name: youtube
+      #   url: yoururl
+      # - name: twitter
+      #   url: yoururl
+      # - name: facebook
+      #   url: yoururl
 
 
+    # change favicon in images folder (icon for web tab)
     assets:
           favicon: "/images/favicon.ico"
           favicon16x16: "/images/favicon-16x16.png"
           favicon32x32: "/images/favicon-32x32.png"
           apple_touch_icon: "/images/apple-touch-icon.png"
           safari_pinned_tab: "/images/apple-touch-icon.png"
+
 
 
 enableInlineShortcodes: true

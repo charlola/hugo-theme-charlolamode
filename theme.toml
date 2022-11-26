@@ -3,8 +3,8 @@
 
 name = "charlolamode"
 license = "MIT"
-licenselink = "https://github.com/charlola/blog-template/master/LICENSE"
-description = "the minimalistic website"
+licenselink = "https://github.com/charlola/blog-template/LICENSE"
+description = "minimalistic website with basic featuers"
 homepage = "https://github.com/charlola/blog-template"
 tags = [
   "responsive",
@@ -14,7 +14,8 @@ tags = [
   "dark",
   "blog",
   "minimalist",
-  "highlight.js"
+  "highlight.js",
+  "search"
 ]
 features = [
   "responsive",
@@ -22,12 +23,14 @@ features = [
   "blog",
   "cover-image",
   "table-of-contents",
+  "opengraph",
   "highlight.js",
   "favicon",
+  "archive",
   "share-icons",
   "social-icons",
   "theme-toggle",
-  "scroll-to-top"
+  "scroll-to-top",
 ]
 
 [author]
