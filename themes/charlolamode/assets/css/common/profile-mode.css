@@ -41,3 +41,12 @@
 .button:active {
     transform: scale(0.96);
 }
+
+.profile-description {
+    margin: 8px;
+    color: var(--secondary);
+    font-size: 20px;
+    line-height: 1.6;
+    display: --webkit-box;
+    --webkit-box-orient: vertical
+}
