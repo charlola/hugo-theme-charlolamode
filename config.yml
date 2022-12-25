@@ -13,12 +13,17 @@ menu:
         - name: Articles
           url: articles/
           weight: 20
-        # - name: Categories
+        - name: Projects
+          url: projects
+          weight: 15
+
+     # - name: Categories
         #   url: categories/
         #   weight: 10
         # - name: new Tab
         #   url: mewtab/
         #   weight: defines order of tabs
+   
 
 
 params:
