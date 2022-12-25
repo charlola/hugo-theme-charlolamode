@@ -8,6 +8,9 @@ description = "the minimalistic website"
 homepage = "https://github.com/charlola/blog-template"
 tags = [
   "responsive",
+  "personal",
+  "portfolio",
+  "contact",
   "simple",
   "clean",
   "light",

@@ -1,13 +1,13 @@
 ### charlola.mode
 
-This is a theme template for websites based on the Hugo framework and on this [theme](https://github.com/nanxiaobei/hugo-paper). It's quick and easy to use with minimal design and the most basic functions.
+
+This website theme is based on the Hugo framework. It's quick and easy to use with minimal design and the most basic functions.
 
 Check out my website to see a similar example: www.heycharlola.com
 
+Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/.
 
-![ProfilePic](static/images/screenshot.png)
-
-
+![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/screenshot.png)
 
 ## Quick Start
 
@@ -59,7 +59,7 @@ The config.yml is your best friend. You can modify and add information, such as 
 - Buttons
 
 
-![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/blob/master/static/images/screenshot.png)
+![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/example.png)
 
 You can easily add social icons like LinkedIn, Twitter, Youtube, Instagram, ... just have a look in the config.yml. Examples are already added.
 
@@ -89,4 +89,4 @@ I'd love to get feedback. Send a message via LinkedIn. Feel free to support this
 
 ## Online Website
 
-To push your website online, use Azure Static Web or Netflify. I used Azure Static Web.
+To push your website online, use Azure Static Web or Netflify. I use Azure Static Web.
