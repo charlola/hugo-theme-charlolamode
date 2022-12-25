@@ -7,6 +7,8 @@ Check out my website to see a similar example: www.heycharlola.com
 
 ![ProfilePic](static/images/screenshot.png)
 
+
+
 ## Quick Start
 
 1. Install [Hugo](https://gohugo.io/installation/)
@@ -33,7 +35,7 @@ git init
 
 4. Clone this repository into your folder
 ```console
-git clone 'https://github.com/charlola/hugo-theme-charlolamode.git'
+git clone https://github.com/charlola/hugo-theme-charlolamode.git
 ```
 
 5. Start Hugo's development server to view the site locally.
@@ -56,7 +58,8 @@ The config.yml is your best friend. You can modify and add information, such as 
 - Social Icons
 - Buttons
 
-![ProfilePic](static/images/example.png)
+
+![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/blob/master/static/images/screenshot.png)
 
 You can easily add social icons like LinkedIn, Twitter, Youtube, Instagram, ... just have a look in the config.yml. Examples are already added.
 
