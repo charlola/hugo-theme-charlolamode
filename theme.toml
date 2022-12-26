@@ -4,18 +4,20 @@
 name = "charlolamode"
 license = "MIT"
 licenselink = "https://github.com/charlola/blog-template/LICENSE"
-description = "minimalistic website with basic featuers"
+description = "minimalistic website with basic features"
 homepage = "https://github.com/charlola/blog-template"
 tags = [
   "responsive",
+  "personal",
+  "portfolio",
+  "contact",
   "simple",
   "clean",
   "light",
   "dark",
   "blog",
   "minimalist",
-  "highlight.js",
-  "search"
+  "highlight.js"
 ]
 features = [
   "responsive",
