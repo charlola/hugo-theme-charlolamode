@@ -7,7 +7,7 @@ Check out my website to see a similar example: www.heycharlola.com
 
 Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/.
 
-![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/screenshot.png)
+![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/tn.png)
 
 ## Quick Start
 
