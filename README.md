@@ -33,7 +33,7 @@ Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/
 
 **Open your terminal or command line**
 
-1. Create a new folder 'my-personal-blog'
+1. Create a new folder 'quickstart'
 
 ```console
 hugo new site quickstart
@@ -54,17 +54,17 @@ git init
 git submodule add https://github.com/charlola/hugo-theme-charlolamode.git themes/charlolamode
 ```
 
-5. Add theme in the new config.yml file
-```console
-echo "theme: charlolamode" >> config.yml
-```
-
-7. Delete the config.toml
+5. Delete the config.toml
 ```console
 rm config.toml
 ```
 
-6. Start Hugo's development server to view the site locally.
+6. Add theme in a new config.yml file
+```console
+echo "theme: charlolamode" >> config.yml
+```
+
+7. Start Hugo's development server to view the site locally.
 ```console
 hugo server
 ```
