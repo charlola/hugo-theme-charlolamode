@@ -9,6 +9,22 @@ Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/
 
 ![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/tn.png)
 
+
+## Features
+
+1. **Customize your home page with ...**
+    - Title of the page
+    - Your Name
+    - Description
+    - Social Icons
+    - Buttons
+
+2. **Change color of all elements such as background, text, icons ...**
+
+3. **If you click on a tab you will see a list of posts.** 
+    - posts can be visualized with images
+    - post can lead to an external link
+
 ## Quick Start
 
 1. Install [Hugo](https://gohugo.io/installation/)
@@ -20,12 +36,12 @@ Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/
 1. Create a new folder 'my-personal-blog'
 
 ```console
-mkdir 'my-personal-blog'
+hugo new site quickstart
 ```
 
 2. Go into this folder 
 ```console
-cd 'my-personal-blog'
+cd quickstart
 ```
 
 3. Initialize an empty Git repository in the current directory
@@ -35,16 +51,20 @@ git init
 
 4. Clone this repository into your folder
 ```console
-git clone https://github.com/charlola/hugo-theme-charlolamode.git
+git submodule add https://github.com/charlola/hugo-theme-charlolamode.git themes/charlolamode
 ```
 
-5. Start Hugo's development server to view the site locally.
+5. Add theme in the new config.yml file
+```console
+echo "theme: charlolamode" >> config.yml
+```
+
+6. Start Hugo's development server to view the site locally.
 ```console
 hugo server
 ```
 
 Once the local server starts, you can see your site. If your webbrowser does not automatically pop up, open your browser and enter http://localhost:1313. Now you can start to modify this page in the directory. If you save new changes, this site will automatically refresh and render the modification.
-
 
 
 ## Open Visual Studio Code to edit your Blog
@@ -55,8 +75,11 @@ Once the local server starts, you can see your site. If your webbrowser does not
 The config.yml is your best friend. You can modify and add information, such as ...
 - Title of the page
 - Your Name
+- Description
 - Social Icons
 - Buttons
+
+Have a look at the charlolamode/config.yml for reference. There are commented examples. You can copy it in your config.yml which will overwrite the config.yml of the theme.
 
 
 ![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/example.png)
@@ -80,6 +103,11 @@ If you add a new tab in the config.yml, you have to do the following:
 ### Add new content
 
 If you like to push new content, create a new Markdown file in the new folder. Find an example in ***content/articles/article.md***.
+
+
+### Change colors
+
+Have a look at assets/css/core/theme-vars.css to play around with colors.
 
 ## Thank you!
 
