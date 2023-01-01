@@ -84,12 +84,9 @@ The config.yml is your best friend. You can modify and add information, such as 
 - Social Icons
 - Buttons
 
-Have a look at the charlolamode/config.yml for reference. There are commented examples. You can copy it in your config.yml which will overwrite the config.yml of the theme.
-
+Have a look at the charlolamode/config.yml for reference. There are commented examples which show you how to easily add tabs and social icons like LinkedIn, Twitter, Youtube, Instagram. Copy the content in your config.yml which will overwrite the config.yml of the theme. 
 
 ![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/example.png)
-
-You can easily add social icons like LinkedIn, Twitter, Youtube, Instagram, ... just have a look in the config.yml. Examples are already added.
 
 
 ### Change Profile Image
