@@ -59,6 +59,11 @@ git submodule add https://github.com/charlola/hugo-theme-charlolamode.git themes
 echo "theme: charlolamode" >> config.yml
 ```
 
+7. Delete the config.toml
+```console
+rm config.toml
+```
+
 6. Start Hugo's development server to view the site locally.
 ```console
 hugo server
