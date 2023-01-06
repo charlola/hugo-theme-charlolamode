@@ -119,6 +119,21 @@ profileMode:
     enabled: false
 ```
 
+With the Article content moved to the home page, removing the main menu entry for ***Articles*** may be desirable:
+```
+menu:
+    main:
+        - name: Contact
+          url: contact/
+          weight: 30
+        # - name: Articles
+        #   url: articles/
+        #   weight: 20
+        - name: Projects
+          url: projects
+          weight: 15
+```
+
 ## Thank you!
 
 I'd love to get feedback. Send a message via LinkedIn. Feel free to support this page with a [coffee donation](https://ko-fi.com/heycharlola) :)
