@@ -91,7 +91,7 @@ Have a look at the charlolamode/config.yml for reference. There are commented ex
 
 ### Change Profile Image
 
-To add your profile pic, replace ***profil.png*** in the folder ***static/images***. Make sure you take an image with a happy face :)
+To add your profile pic, replace ***profile.png*** in the folder ***static/images***. Make sure you take an image with a happy face :)
 
 ### Add tabs
 
@@ -110,6 +110,14 @@ If you like to push new content, create a new Markdown file in the new folder. F
 ### Change colors
 
 Have a look at assets/css/core/theme-vars.css to play around with colors.
+
+### Disable 'Profile Mode'
+
+To display Article content on the home page, rather than profile information, set the following under params: in ***config.yml***
+```
+profileMode: 
+    enabled: false
+```
 
 ## Thank you!
 
