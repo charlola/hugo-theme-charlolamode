@@ -138,7 +138,7 @@ menu:
 
 I invested my own time to build this and it's completely for free. If this template have saved you time, feel free to support this page with a [coffee donation](https://ko-fi.com/heycharlola) :)
 
-I'd love to get feedback. Send a message via LinkedIn. 
+I'd love to get feedback, send a message via [LinkedIn](https://www.linkedin.com/in/heycharlola/)!
 
 
 ## Online Website
