@@ -1,7 +1,7 @@
 ### charlola.mode
 
 
-This website theme is based on the Hugo framework. It's quick and easy to use with minimal design and the most basic functions.
+This website theme is based on the Hugo framework. This is a modification of the templates [PaperMod](https://github.com/adityatelange/hugo-PaperMod) and [hugo-paper](https://github.com/nanxiaobei/hugo-paper). It's quick and easy to use with minimal design and the most basic functions.
 
 Check out my website to see a similar example: www.heycharlola.com
 

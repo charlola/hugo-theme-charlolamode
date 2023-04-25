@@ -45,3 +45,11 @@ features = [
   author = "nanxiaobei"
   homepage = "https://github.com/nanxiaobei"
   repo = "https://github.com/nanxiaobei/hugo-paper/"
+
+# If porting an existing theme
+[original]
+  name = "Paper"
+  author = "adityatelange"
+  homepage = "https://github.com/adityatelange"
+  repo = "https://github.com/adityatelange/hugo-PaperMod"
+
