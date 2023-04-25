@@ -7,9 +7,6 @@ Check out my website to see a similar example: www.heycharlola.com
 
 Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/.
 
-![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/tn.png)
-
-
 ## Features
 
 1. **Customize your home page with ...**
@@ -24,6 +21,9 @@ Link to the Hugo Theme: https://themes.gohugo.io/themes/hugo-theme-charlolamode/
 3. **If you click on a tab you will see a list of posts.** 
     - posts can be visualized with images
     - post can lead to an external link
+
+![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/tn.png)
+
 
 ## Quick Start
 
@@ -84,17 +84,14 @@ The config.yml is your best friend. You can modify and add information, such as 
 - Social Icons
 - Buttons
 
-Have a look at the charlolamode/config.yml for reference. There are commented examples. You can copy it in your config.yml which will overwrite the config.yml of the theme.
-
+Have a look at the charlolamode/config.yml for reference. There are commented examples which show you how to easily add tabs and social icons like LinkedIn, Twitter, Youtube, Instagram. Copy the content in your config.yml which will overwrite the config.yml of the theme. 
 
 ![](https://raw.githubusercontent.com/charlola/hugo-theme-charlolamode/master/static/images/example.png)
-
-You can easily add social icons like LinkedIn, Twitter, Youtube, Instagram, ... just have a look in the config.yml. Examples are already added.
 
 
 ### Change Profile Image
 
-To add your profile pic, replace ***profil.png*** in the folder ***static/images***. Make sure you take an image with a happy face :)
+To add your profile pic, replace ***profile.png*** in the folder ***static/images***. Make sure you take an image with a happy face :)
 
 ### Add tabs
 
@@ -114,10 +111,34 @@ If you like to push new content, create a new Markdown file in the new folder. F
 
 Have a look at assets/css/core/theme-vars.css to play around with colors.
 
+### Disable 'Profile Mode'
+
+To display Article content on the home page, rather than profile information, set the following under params: in ***config.yml***
+```
+profileMode: 
+    enabled: false
+```
+
+With the Article content moved to the home page, removing the main menu entry for ***Articles*** may be desirable:
+```
+menu:
+    main:
+        - name: Contact
+          url: contact/
+          weight: 30
+        # - name: Articles
+        #   url: articles/
+        #   weight: 20
+        - name: Projects
+          url: projects
+          weight: 15
+```
+
 ## Thank you!
 
-I'd love to get feedback. Send a message via LinkedIn. Feel free to support this page with a [coffee donation](https://ko-fi.com/heycharlola) :)
+I invested my own time to build this and it's completely for free. If this template have saved you time, feel free to support this page with a [coffee donation](https://ko-fi.com/heycharlola) :)
 
+I'd love to get feedback, send a message via [LinkedIn](https://www.linkedin.com/in/heycharlola/)!
 
 
 ## Online Website

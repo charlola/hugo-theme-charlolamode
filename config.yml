@@ -8,20 +8,20 @@ theme: charlolamode
 menu:
     main:
         - name: Contact
-          url: contact/
+          url: /contact/
           weight: 30
         - name: Articles
-          url: articles/
+          url: /articles/
           weight: 20
         - name: Projects
-          url: projects
+          url: /projects/
           weight: 15
 
      # - name: Categories
-        #   url: categories/
+        #   url: /categories/
         #   weight: 10
         # - name: new Tab
-        #   url: mewtab/
+        #   url: /newtab/
         #   weight: defines order of tabs
    
 
@@ -40,6 +40,7 @@ params:
     ShowToc: true
 
     profileMode:
+        # Disable to populate home page with 'mainSections' content
         enabled: true
         title: Joe Doe
         description: |
