@@ -7,15 +7,15 @@ theme: charlolamode
 
 menu:
     main:
-        - name: Contact
-          url: /contact/
-          weight: 30
-        - name: Articles
-          url: /articles/
+        - name: Recommendations
+          url: /recommendations/
           weight: 20
         - name: Projects
           url: /projects/
-          weight: 15
+          weight: 10
+        - name: Contact
+          url: /contact/
+          weight: 40
 
      # - name: Categories
         #   url: /categories/
@@ -42,31 +42,23 @@ params:
     profileMode:
         # Disable to populate home page with 'mainSections' content
         enabled: true
-        title: Joe Doe
+        title: Marko Hammersen
         description: |
 
-          Hello, I am Joe.
-           I am a software developer. 
-        
-
-          This is a minimalistic theme template for websites.
-        imageUrl: "/images/profile.png"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Don't click me
-              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+          [Moin](https://en.wikipedia.org/wiki/Moin), the name's Marko.\
+          I'm an independent embedded-software engineer, husband and dad of three.        
+        imageUrl: "/images/me.png"
+        imageTitle: me
+        imageWidth: 150
+        imageHeight: 150
     mainSections:
       - articles
 
     socialIcons:
-        - name: buymeacoffee
-          url: "https://ko-fi.com/heycharlola"
-        - name: github
-          url: "https://github.com/charlola"
         - name: linkedin
-          url: "https://www.linkedin.com/in/heycharlola/"
+          url: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjO2LaDub6AAxUMif0HHXNUBE8QFnoECBUQAQ&url=https%3A%2F%2Fde.linkedin.com%2Fin%2Fmarko-hammersen-0836414&usg=AOvVaw0jEhq2oWdTiaQA2JEz48DK&opi=89978449"
+        - name: github
+          url: "https://github.com/MarkoHammersen"
 
       # add more social icons. find more in svg.html file
       # - name: youtube
